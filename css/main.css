@@ -1,0 +1,43 @@
+/*
+* {
+	outline: black solid 1px;
+}
+*/
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#new_grid_button {
+	font-size: 20px;
+	width: 20rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#grid_container {
+	width: 60rem;
+	height: 60rem;
+
+}
+
+.grid_row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+
+}
+
+.grid_cell {
+	outline: grey solid 1px;
+	height: 100%;
+}
+
+.grid_cell.filled {
+	background-color: red;
+}
