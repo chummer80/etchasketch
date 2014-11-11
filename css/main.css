@@ -4,9 +4,11 @@
 }
 */
 
-.centered {
-	margin-left: auto;
-	margin-right: auto;
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
 }
 
 #new_grid_button {
@@ -14,14 +16,11 @@
 	width: 20rem;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 #grid_container {
-	width: 60rem;
-	height: 60rem;
-
+	width: 45rem;
+	height: 45rem;
 }
 
 .grid_row {
@@ -30,7 +29,6 @@
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: stretch;
-
 }
 
 .grid_cell {
